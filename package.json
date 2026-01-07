@@ -1,0 +1,12 @@
+{
+  "name": "neurodiversity-site",
+  "version": "1.0.0",
+  "description": "Educational site on neurodiversity and mental health for a school project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

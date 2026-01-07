@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="120" viewBox="0 0 220 120" role="img" aria-labelledby="title desc">
+  <title id="title">Infinity symbol with dotted rainbow stroke</title>
+  <desc id="desc">A smooth infinity loop drawn with dotted rainbow colors to represent neurodiversity.</desc>
+  <defs>
+    <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5f6d" />
+      <stop offset="18%" stop-color="#ffb347" />
+      <stop offset="36%" stop-color="#ffe066" />
+      <stop offset="54%" stop-color="#69db7c" />
+      <stop offset="72%" stop-color="#4dabf7" />
+      <stop offset="88%" stop-color="#9775fa" />
+      <stop offset="100%" stop-color="#f06595" />
+    </linearGradient>
+    <filter id="glow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <path d="M30 60c0-20 18-36 40-36 18 0 34 10 55 36-21 26-37 36-55 36-22 0-40-16-40-36zm160 0c0 20-18 36-40 36-18 0-34-10-55-36 21-26 37-36 55-36 22 0 40 16 40 36z"
+        fill="none"
+        stroke="url(#rainbow)"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-dasharray="1 16"
+        filter="url(#glow)" />
+</svg>
